@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--add css-->
+    <link rel="stylesheet" href="style.css">
+    <!--add google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!--add font-awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!--nav bar-->
+    <nav class="nav-bar">
+        <h1>Dharsaa</h1>
+    <div class="nav-bar-links">
+        <p><a href="index.html">Home</a></p>
+        <p><a href="collection.html">collections</a></p>
+        <p><a href="contact.html">contact</a></p>
+    </div>
+    <!--menu toggle button-->
+        <div onclick="slideopen()"  class="menu-toggle">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    <!--slide bar -->
+    <div class="slide-bar">
+        <div onclick="closeslide()"><p class="x-mark" ><i class="fa-solid fa-xmark"></i></p></div>
+        <p class="slide-bar-link"><a href="index.html">Home</a><i class="fa-solid fa-home"></i></p>
+        <p class="slide-bar-link"><a href="collection.html">Collections</a></p>
+        <p class="slide-bar-link"><a href="contact.html">Contact</a></p>
+     </div>
+
+     <!--Header-->
+     <div class="header">
+        <div class="text">
+            <h1>levelup Your Style</h1>
+            <p >with our stunning collection</p>
+            <button class="shop-btn">shop now</button>
+        </div>
+        <div>
+            <img  class="header-img"  src="https://source.unsplash.com/random/300x300/?fashion" alt="">
+        </div>
+    </div>
+
+    <!--customer satisfication-->
+    <div class="satisfication-box">
+        <div class="sentence-box">
+            <h3>We Provide Best <br> Customer Experiences</h3>
+            <p><br>|| We ensure that our customer have the best shopping experience</p>
+        </div>
+        <div class="three-box">
+            <div class="inside-box">
+               <i class="fa-solid fa-smile"></i>
+               <h4>Satisfaction Guarantee</h4>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab, odit?</p>
+            </div>
+            <div class="inside-box"> 
+                <i class="fa-solid fa-paint-brush"></i>
+                <h4>New Arrival EveryDay</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab, odit?</p>
+            </div>
+            <div class="inside-box">
+                <i class="fa-solid fa-truck"></i>
+                <h4>Fast & Free Shipping</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab, odit?</p>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!--new arrival-->
+    <h3 class="new-arrival-topic">New Arrival</h3>
+    <div class="new-arrival">
+        
+        <div class="new-arrival-container"><img src="https://source.unsplash.com/random/200x200/?fashion?[1]" alt=""> 
+        <button class="new-arrival-shop">shop now <i class="fa-solid fa-arrow-right"></i></button></div>
+
+        <div class="new-arrival-container"><img src="https://source.unsplash.com/random/200x200/?fashion?[2]" alt="">
+            <button class="new-arrival-shop">shop now <i class="fa-solid fa-arrow-right"></i></button></div>
+
+        <div class="new-arrival-container"><img src="https://source.unsplash.com/random/200x200/?fashion?[3]" alt="">
+            <button class="new-arrival-shop">shop now <i class="fa-solid fa-arrow-right"></i></button></div>
+
+        <div class="new-arrival-container"><img src="https://source.unsplash.com/random/200x200/?fashion?[4]" alt="">
+            <button class="new-arrival-shop">shop now <i class="fa-solid fa-arrow-right"></i></button></div>
+    </div>
+  <!--top collections-->
+  <h3 class="top-collection-topic">Top Collections</h3>
+    <div class="new-arrival">
+        
+        <div class="new-arrival-container"><img src="https://source.unsplash.com/random/200x200/?fashion?[5]" alt=""> 
+        <button class="new-arrival-shop">shop now <i class="fa-solid fa-arrow-right"></i></button></div>
+
+        <div class="new-arrival-container"><img src="https://source.unsplash.com/random/200x200/?fashion?[6]" alt="">
+            <button class="new-arrival-shop">shop now <i class="fa-solid fa-arrow-right"></i></button></div>
+
+        <div class="new-arrival-container"><img src="https://source.unsplash.com/random/200x200/?fashion?[7]" alt="">
+            <button class="new-arrival-shop">shop now <i class="fa-solid fa-arrow-right"></i></button></div>
+
+        <div class="new-arrival-container"><img src="https://source.unsplash.com/random/200x200/?fashion?[8]" alt="">
+            <button class="new-arrival-shop">shop now <i class="fa-solid fa-arrow-right"></i></button></div>
+    </div>
+
+    <!--news letter-->
+    <div class="news-letter-container">
+        <h3>Join Our News Letter</h3>
+        <h5>signup for our email newspaper to get exclusive discounts, updates, and more</h5>
+        <input class="news-letter-input" type="text"><br>
+        <button>subscribe <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+
+    <footer>
+        <h2>Dharsaa</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, similique?</p>
+        <i class="fa-brands fa-instagram"></i> <i class="fa-brands fa-twitter"></i> <i class="fa-brands fa-facebook"></i>
+    </footer>
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
