@@ -317,4 +317,8 @@ footer{
     .contact-box{
         margin-left: 15%;
     }
+
+    .product-img{
+        flex-basis: 40%;
+    }
  }
