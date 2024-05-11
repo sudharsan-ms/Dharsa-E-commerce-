@@ -211,7 +211,7 @@ footer{
     justify-content: space-between;
     padding: 10px;
     margin:20px;
-    margin-left:110px;
+    margin-left: 10%;
     border: 2px solid black;
     border-radius: 100px;
     background-color: white;
@@ -321,4 +321,8 @@ footer{
     .product-img{
         flex-basis: 40%;
     }
+
+.search-product{
+    margin-left: 6%;
+}
  }
