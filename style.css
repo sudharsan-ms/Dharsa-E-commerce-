@@ -77,6 +77,11 @@ body{
     margin: 70px;
     justify-content: center;
 }
+.header-img{
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+}
 
 
 .text h1{
@@ -127,19 +132,21 @@ body{
     flex-wrap: wrap;
     justify-content:space-around;
     padding-top: 20px;
+ 
     
 
 }
 .new-arrival-container{
     flex-basis: 20%;
     position: relative;
+   
     
 }
 .new-arrival-shop{
     padding: 5px;
     position: absolute;
     top: 80%;
-    left: 20%;
+    left: 30%;
     border: none;
     border-radius: 5px;
     background-color:whitesmoke
@@ -240,8 +247,14 @@ footer{
 .product-img{
     flex-basis: 20%;
     text-align: center;
+   
     
     
+}
+.product-img img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
 }
 
 .contact-box{
@@ -285,6 +298,13 @@ footer{
     border: none;
     font-weight:700;
     width: 100px;
+  }
+
+  .new-arrival-container img{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    
   }
 
 /* media query */
